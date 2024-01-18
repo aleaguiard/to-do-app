@@ -10,4 +10,10 @@
     <string name="crear_cuenta">Crear cuenta</string>
     <string name="crea_tu_cuenta">Crea tu cuenta</string>
     <string name="nombre">Nombre</string>
+    <string name="navigate_back">Navigate back</string>
+    <string name="usuario_creado">Usuario creado</string>
+    <string name="nueva_tarea">Nueva Tarea</string>
+    <string name="anadir">Añadir</string>
+    <string name="tarea_anadida">Tarea añadida</string>
+    <string name="cancelar">Cancelar</string>
 </resources>
