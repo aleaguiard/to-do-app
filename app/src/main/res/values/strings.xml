@@ -16,4 +16,5 @@
     <string name="anadir">Añadir</string>
     <string name="tarea_anadida">Tarea añadida</string>
     <string name="cancelar">Cancelar</string>
+    <string name="done">Done</string>
 </resources>
