@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyToDoList</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="account">Don\'t have account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="mas">Más</string>
+    <string name="logout">Logout</string>
+</resources>
