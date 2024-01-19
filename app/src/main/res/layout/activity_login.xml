@@ -77,6 +77,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
 
     <LinearLayout
+        android:id="@+id/linearLayoutSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -84,7 +85,7 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botonLogin">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutSocial">
 
         <TextView
             android:id="@+id/account"
@@ -99,5 +100,66 @@
             android:layout_marginStart="8dp"
             android:text="@string/sign_up" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/rememberPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="32dp"
+        android:text="Forgot Password?"
+        app:layout_constraintBottom_toTopOf="@+id/botonLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSocial"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginWith">
+
+        <ImageView
+            android:id="@+id/google"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="24dp"
+            app:srcCompat="@drawable/ic_google" />
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="24dp"
+            app:srcCompat="@drawable/ic_facebook" />
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="24dp"
+            app:srcCompat="@drawable/ic_x" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/loginWith"
+        android:layout_width="102dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="Or Login with"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutSocial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonLogin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
