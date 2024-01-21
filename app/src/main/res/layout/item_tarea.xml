@@ -12,11 +12,14 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
         android:text="TextView"
+        android:clickable="true"
+        android:onClick="onTextViewClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonDone"
+        android:onClick="borrarTarea"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"

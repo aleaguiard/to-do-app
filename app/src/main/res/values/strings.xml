@@ -28,4 +28,8 @@
     <string name="icono_de_google">icono de Google</string>
     <string name="ic_facebook">ic_facebook</string>
     <string name="ic_x">ic_x</string>
+    <string name="actualizar_tarea">Actualizar tarea</string>
+    <string name="guardar">Guardar</string>
+    <string name="tarea_actualizada">Tarea actualizada</string>
+    <string name="fallo_actualizar_tarea">Fallo al actualizar</string>
 </resources>
