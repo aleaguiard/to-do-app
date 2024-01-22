@@ -32,4 +32,5 @@
     <string name="guardar">Guardar</string>
     <string name="tarea_actualizada">Tarea actualizada</string>
     <string name="fallo_actualizar_tarea">Fallo al actualizar</string>
+    <string name="defaul_web_client_id" translatable="false">111629018942-q3ep2tmkgpt46rbgbj2ch0jf993gslq5.apps.googleusercontent.com</string>
 </resources>
