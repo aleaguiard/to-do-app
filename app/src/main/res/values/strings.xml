@@ -17,9 +17,9 @@
     <string name="tarea_anadida">Tarea añadida</string>
     <string name="cancelar">Cancelar</string>
     <string name="done">Done</string>
-    <string name="recupera_tu_contrasena">Recupera tu contraseña</string>
+    <string name="recupera_tu_contrasena">Restablece tu contraseña</string>
     <string name="enviar_enlace">Enviar enlace</string>
-    <string name="texto_recuperar">Te enviaremos un link al correo asociado a tu cuenta para que puedas recuperar tu contraseña</string>
+    <string name="texto_recuperar">Te enviaremos un link al correo asociado a tu cuenta para que puedas restablecer tu contraseña</string>
     <string name="icono_lock">icono lock</string>
     <string name="link_enviado">Link enviado</string>
     <string name="mis_tareas">Mis Tareas</string>
