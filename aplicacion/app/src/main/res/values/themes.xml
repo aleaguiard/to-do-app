@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyToDoList" parent="Theme.Material3.Light">
+        <item name="android:fontFamily">@font/font_mono</item>
+    </style>
+
+    <style name="Theme.MyToDoList" parent="Base.Theme.MyToDoList" />
+
+    <style name="tareaCreada">
+        <item name="stIconStart">@drawable/ic_done</item>
+        <item name="stColorBackground">@color/green</item>
+        <item name="stTextColor">@color/white</item>
+    </style>
+    <style name="usuarioRegistrado">
+        <item name="stIconStart">@drawable/ic_person</item>
+        <item name="stColorBackground">@color/green</item>
+        <item name="stTextColor">@color/white</item>
+    </style>
+
+</resources>
