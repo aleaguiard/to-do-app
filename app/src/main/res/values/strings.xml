@@ -38,4 +38,5 @@
     <string name="fallo_inesperado">Fallo inesperado</string>
     <string name="email_invalido">Formato de email inválido</string>
     <string name="campo_obligatorio">Este campo no puede estar vacío</string>
+    <string name="tarea_vacia">La tarea no puede estar vacía</string>
 </resources>
