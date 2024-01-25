@@ -11,10 +11,13 @@ La aplicación TodoList es una herramienta de gestión de tareas que permite a l
 ### 1. Cambio de Icono de la Aplicación
 Se ha reemplazado el icono genérico de la aplicación por uno personalizado, agregando un toque distintivo al proyecto.
 
-![Icono de la Aplicación](url_del_icono)
+![Icono de la Aplicación](/
+)
 
 ### 2. Pantalla Inicial de Splash con Firebase Authentication
 Ahora, la aplicación cuenta con una pantalla inicial de Splash que da la bienvenida a los usuarios y les guía hacia el proceso de login/registro utilizando Firebase Authentication para una autenticación segura y eficiente.
+![Icono de la Aplicación](/imgReadme/splash.gif)
+
 
 ### 3. Iconos e Imágenes en los Botones
 Se han añadido imágenes o iconos a los botones de la interfaz de usuario, mejorando la usabilidad y la estética general de la aplicación.
