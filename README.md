@@ -1,43 +1,58 @@
 # README - Aplicación TodoList Mejorada
 
-Este README proporciona información sobre la versión mejorada de la aplicación TodoList, donde se han implementado una serie de mejoras y nuevas funcionalidades para brindar una experiencia de usuario más completa y atractiva.
+Aplicación TodoList con base de datos Firebase y autenticación vía Google.
 
 ## Descripción del Proyecto
 
-La aplicación TodoList es una herramienta de gestión de tareas que permite a los usuarios crear, editar, completar y eliminar tareas de manera eficiente. Esta versión mejorada incorpora características adicionales para mejorar la experiencia del usuario y la funcionalidad general de la aplicación.
+La aplicación TodoList es una herramienta de gestión de tareas que permite a los usuarios crear, editar y completar dichas tareas. Esta versión incluye una pantalla para la recuperación de la contraseña.
 
-## Funcionalidades Mejoradas
+## Efecto de hint y borrado de tarea
 
-### 1. Cambio de Icono de la Aplicación
-Se ha reemplazado el icono genérico de la aplicación por uno personalizado, agregando un toque distintivo al proyecto.
+Se ha agregado un efecto de difuminado a la hora de la eliminación de la tarea, así como el hint en las cajas de entrada de texto.
 
-![Icono de la Aplicación](/
-)
+![Borrado](/imgReadme/borrado.gif)
+![Hint](/imgReadme/hint.gif)
 
-### 2. Pantalla Inicial de Splash con Firebase Authentication
-Ahora, la aplicación cuenta con una pantalla inicial de Splash que da la bienvenida a los usuarios y les guía hacia el proceso de login/registro utilizando Firebase Authentication para una autenticación segura y eficiente.
+### Cambio de Icono de la Aplicación
+Se ha reemplazado el icono de la aplicación por uno personalizado.
+
+![Icono de la Aplicación](/imgReadme/appicon.png)
+
+### Pantalla Inicial de Splash con Firebase Authentication
+Ahora, la aplicación cuenta con una pantalla inicial de Splash que nos dirige hacia el proceso de login utilizando Firebase Authentication.
+
 ![Icono de la Aplicación](/imgReadme/splash.gif)
 
+### Autenticación mediante Google
+La aplicación también cuenta con la opción de registrarse mediante una cuenta de Google, simplemente clickando sobre el logo nos llevará a la plataforma de autenticación Google.
 
-### 3. Iconos e Imágenes en los Botones
-Se han añadido imágenes o iconos a los botones de la interfaz de usuario, mejorando la usabilidad y la estética general de la aplicación.
+![Google](/imgReadme/google.gif)
 
-![Botón de Añadir Tarea](url_del_boton_anadir)
-![Botón de Logout](url_del_boton_logout)
+### Iconos del menú
+Se han cambiado los iconos del menú, así como se ha añadido un icono al boton de done, mejorando la usabilidad y estética de éste. 
 
-### 4. Avisos Personalizados con Toast
-Se han implementado avisos de tipo Toast personalizados para informar a los usuarios sobre eventos importantes, como el registro exitoso y la finalización de tareas, proporcionando una retroalimentación clara y visual.
+![Botones menu](/imgReadme/botonesmenu.png)
+![Botones donde](/imgReadme/iconoboton.png)
 
-### 5. Funcionalidad de Edición de Tareas
-Cada tarea ahora cuenta con un botón de edición que permite a los usuarios modificar el texto de la tarea original a través de un cuadro de diálogo, manteniendo actualizada la información en la base de datos y en la interfaz de usuario.
+### Avisos Personalizados con Toast
+Mediante una librería de Android (StyleableToast) se han implementado avisos de tipo Toast personalizados para informar a los usuarios sobre eventos importantes, como el registro exitoso y la creación de tareas.
 
-## Instrucciones de Uso
+![Toast](/imgReadme/toastpersonalizado.png)
+![Toast](/imgReadme/toastpersonalizado2.png)
 
-Para utilizar la aplicación TodoList mejorada, sigue estos pasos:
 
-1. Descarga e instala la aplicación en tu dispositivo.
-2. Inicia la aplicación y sigue las indicaciones en la pantalla de Splash para iniciar sesión o registrarte.
-3. Una vez autenticado, podrás empezar a crear, editar, completar y eliminar tareas según tus necesidades.
+### Funcionalidad de Edición de Tareas
+Cada tarea se modifica clickando sobre el propio texto, lo que permite a los usuarios modificar el texto de la tarea original a través de un cuadro de diálogo, manteniendo actualizada la información en la base de datos y en la interfaz de usuario.
 
-¡Gracias por utilizar la aplicación mejorada TodoList! Esperamos que disfrutes de estas nuevas funcionalidades y mejoras.
+![Actualizar](/imgReadme/actualizar.gif)
+
+
+## Verificación de formularios
+Todos los campos de entrada (SignUp, EmailRecovery y Creación de Tareas) se han verificado para no permitir campos en blanco, formatos de email incorrectos o contraseñas de menos de 6 caracteres. 
+![Recovery](/imgReadme/prueba_mail_recovery.gif)
+![SignUp](/imgReadme/signup.gif)
+![PruebaTarea](/imgReadme/prueba_tarea_vacia.gif)
+
+
+
 
