@@ -5,4 +5,16 @@
     </style>
 
     <style name="Theme.MyToDoList" parent="Base.Theme.MyToDoList" />
+
+    <style name="tareaCreada">
+        <item name="stIconStart">@drawable/ic_done</item>
+        <item name="stColorBackground">@color/green</item>
+        <item name="stTextColor">@color/white</item>
+    </style>
+    <style name="usuarioRegistrado">
+        <item name="stIconStart">@drawable/ic_person</item>
+        <item name="stColorBackground">@color/green</item>
+        <item name="stTextColor">@color/white</item>
+    </style>
+
 </resources>
