@@ -1,4 +1,4 @@
-# README - Aplicación TodoList Mejorada
+# README - Aplicación TodoList 
 
 Aplicación TodoList con base de datos Firebase y autenticación vía Google.
 
@@ -6,7 +6,7 @@ Aplicación TodoList con base de datos Firebase y autenticación vía Google.
 
 La aplicación TodoList es una herramienta de gestión de tareas que permite a los usuarios crear, editar y completar dichas tareas. Esta versión incluye una pantalla para la recuperación de la contraseña.
 
-## Efecto de hint y borrado de tarea
+## Animaciones
 
 Se ha agregado un efecto de difuminado a la hora de la eliminación de la tarea, así como el hint en las cajas de entrada de texto.
 
@@ -32,27 +32,25 @@ La aplicación también cuenta con la opción de registrarse mediante una cuenta
 Se han cambiado los iconos del menú, así como se ha añadido un icono al boton de done, mejorando la usabilidad y estética de éste. 
 
 ![Botones menu](/imgReadme/botonesmenu.png)
+
 ![Botones donde](/imgReadme/iconoboton.png)
+
 
 ### Avisos Personalizados con Toast
 Mediante una librería de Android (StyleableToast) se han implementado avisos de tipo Toast personalizados para informar a los usuarios sobre eventos importantes, como el registro exitoso y la creación de tareas.
 
 ![Toast](/imgReadme/toastpersonalizado.png)
+
 ![Toast](/imgReadme/toastpersonalizado2.png)
 
 
 ### Funcionalidad de Edición de Tareas
 Cada tarea se modifica clickando sobre el propio texto, lo que permite a los usuarios modificar el texto de la tarea original a través de un cuadro de diálogo, manteniendo actualizada la información en la base de datos y en la interfaz de usuario.
 
-![Actualizar](/imgReadme/actualizar.gif)
+![Actualizar](/imgReadme/update.gif)
 
 
 ## Verificación de formularios
 Todos los campos de entrada (SignUp, EmailRecovery y Creación de Tareas) se han verificado para no permitir campos en blanco, formatos de email incorrectos o contraseñas de menos de 6 caracteres. 
+
 ![Recovery](/imgReadme/prueba_mail_recovery.gif)
-![SignUp](/imgReadme/signup.gif)
-![PruebaTarea](/imgReadme/prueba_tarea_vacia.gif)
-
-
-
-
